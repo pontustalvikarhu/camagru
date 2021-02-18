@@ -1,0 +1,88 @@
+img {
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.img_container {
+	width: 50%;
+	height: auto;
+}
+
+.comment-card {
+	border: 1px solid black;
+	padding: 10px;
+	box-shadow: 1px 1px 1px #babbbd;
+}
+
+.comment-text {
+	font-style: italic;
+}
+
+#player {
+	width: 400px;
+	height: 300px;
+	margin: 10px auto;
+	border: 1px solid #babbbd;
+  }
+  canvas {
+	width: 400px;
+	height: 300px;
+	margin: 10px auto;
+	border: 3px solid red;
+  }
+  #capture-btn {
+	width: 130px;
+	margin: 0 auto;
+  }
+  #pick-image {
+	display: none;
+	text-align: center;
+	padding-top: 30px;
+  }
+  .btn.btn-primary {
+	  display: inline-block;
+	  padding: 6px 12px;
+	  margin-bottom: 0;
+	  font-size: 14px;
+	  font-weight: 400;
+	  line-height: 1.42857143;
+	  text-align: center;
+	  white-space: nowrap;
+	  vertical-align: middle;
+	  -ms-touch-action: manipulation;
+	  touch-action: manipulation;
+	  cursor: pointer;
+	  /*-webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;*/
+	  user-select: none;
+	  background-image: none;
+	  border: 3px solid transparent;
+	  border-radius: 2px;
+	  color: #fff;
+	  background-color: lightgreen;
+	  border-color: green;
+  }
+  
+  .btn.btn-primary:hover {
+	  border: 3px solid transparent;
+	  background-color: pink;
+	  border-color: red;
+  }
+
+  .container_img {
+	display: flex; /* or inline-flex */
+  }
+.imgBox {
+	/*order: 5;  default is 0 */
+	flex-grow: 0;
+  }
+
+.active_sticker {
+	border: solid red;
+}
+
+  .current_page {
+	text-decoration: underline;
+  }
